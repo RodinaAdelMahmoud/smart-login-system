@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+
+            <main class="py-5 main" id="main">
+
+            <div class="container" id="container">
+                
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="form-container sign-up-container">
+                            <form action="#" method="post" target="_blank" id="form">
+                                <h1 class="mb-2">Create Account</h1>
+                                <input type="text" placeholder="Name" id="signUpName" />
+                                <input type="email" placeholder="Email" id="signUpEmail" />
+                                <input type="password" placeholder="Password" id="signUpPass" />
+                                <p id="comment"></p>
+        
+                                <button id="signBtnn" onclick="signBtn(event)">Sign Up</button>
+                            </form>
+                        </div>
+                        <div class="form-container sign-in-container">
+                            <form action="#">
+                                <h1 class="mb-2">LOGIN</h1>
+                                <input type="email" placeholder="Email" id="loginEmail" />
+                                <input type="password" placeholder="Password" id="loginPass" />
+                                <p id="req"></p>
+                                <a href="#">Forgot your password?</a>
+                                <button id="logBtn" onclick="login(event)">LogIn</button>
+                            </form>
+                        </div>
+        
+        
+        
+        
+                        <div class="overlay-container">
+                            <div class="overlay">
+                                <div class="overlay-panel overlay-left">
+                                    <h1>Welcome Back!</h1>
+                                    <p>You have an Account ?</p>
+                                    <button class="ghost" id="signIn">LogIn</button>
+                                </div>
+                                <div class="overlay-panel overlay-right">
+                                    <h1>Hello</h1>
+                                    <p>Don't have an account? </p>
+                                    <button class="ghost" id="signUp">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+               
+            
+           
+        </main>
+
+
+
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+      <script src="js/main.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
